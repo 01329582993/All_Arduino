@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main() {
+
+    printf("\033[33m"); // Set text color to red
+    printf("This text is in red.\n");
+    printf("\033[0m");  // Reset text color to default (usually white)
+
+    return 0;
+}
